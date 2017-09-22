@@ -1,23 +1,12 @@
 package SIG;
 
-
 import java.util.Date;
 
 public class Administrativa {
-
-	private String nome;
-	private Date data;
 	
-	
-	
-	public Administrativa (String nome, Date data) {
-		
-		this.nome = nome;
-		
-	}
 	
 	public void getAgendamento() {
-		
+		System.out.println("Agendamento dos eventos...");
 	}
 	
 	public void getRecuperandoAgendamento() {
@@ -27,7 +16,4 @@ public class Administrativa {
 	public void getEntrevista() {
 		
 	}
-	
-	
-	
 }
